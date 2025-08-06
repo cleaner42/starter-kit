@@ -1,7 +1,9 @@
-export default function Home() {
+import Heading from '@/components/ui/heading';
+
+export default function HomePage() {
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+    <main>
+      <Heading>Hello World</Heading>
+    </main>
   );
 }
